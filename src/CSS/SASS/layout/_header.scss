@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .title-wrapper {
+        .main-title {
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: $WhiteText;
+        }
+
+        .total-followes{
+            color: $DesaturatedBlue;
+            font-weight: 700;
+        }
+    }
+}
+
+.overview-wrapper {
+    .title-wrapper {
+        h2.title {
+            letter-spacing: 1.5px;
+            margin-bottom: 30px;
+            color: $WhiteText;
+        }
+    }
+}

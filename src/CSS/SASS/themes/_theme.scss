@@ -1,0 +1,24 @@
+html[data-theme='dark'] {
+    --DarkBlue: hsl(230, 17%, 14%);
+    --EaseDarkBlue: hsl(232, 19%, 15%);
+    --DarkDesaturatedBlue: hsl(228, 28%, 20%);
+    --DesaturatedBlue: hsl(228, 34%, 66%);
+    --WhiteText: hsl(0, 0%, 100%);
+    --card-hover: hsl(228, 28%, 25%);
+}
+
+html[data-theme='light'] {
+    --DarkBlue: hsl(0, 0%, 100%);
+    --EaseDarkBlue: hsl(225, 100%, 98%);
+    --DarkDesaturatedBlue: hsl(227, 47%, 96%);
+    --DesaturatedBlue: hsl(228, 12%, 44%);
+    --WhiteText: hsl(230, 17%, 14%);
+    --card-hover: #E1E3F0;
+}
+
+$DarkBlue: var( --DarkBlue);
+$EaseDarkBlue: var(--EaseDarkBlue);
+$DarkDesaturatedBlue: var( --DarkDesaturatedBlue);
+$DesaturatedBlue: var(--DesaturatedBlue);
+$WhiteText: var( --WhiteText);
+$card-hover: var(--card-hover);

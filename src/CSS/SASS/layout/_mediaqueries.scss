@@ -1,0 +1,100 @@
+@media screen and (max-width: 770px) {
+    .container {
+        width: 90%;
+
+        header {
+            flex-direction: column;
+
+            .title-wrapper {
+                margin-bottom: 30px;
+
+                .main-title {
+                    font-size: 1.5em;
+                    margin-bottom: 10px;
+                }
+                
+                &::after {
+                    position: absolute;
+                    content: " ";
+                    height: 1px;
+                    background: $DesaturatedBlue;
+                    margin-top: 20px;
+                    width: 90%;
+                    opacity: 0.2;
+                    // border: px solid $DesaturatedBlue;
+                }
+            }
+
+            .theme-control-wrapper {
+                margin-top: 10px;
+                justify-content: space-between;
+
+                color: $DesaturatedBlue;
+            }
+        }
+    
+        .cards-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 70px;
+
+            .card {
+                width: 48%;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .container {
+        width: 90%;
+        margin: auto;
+
+        header {
+            flex-direction: column;
+
+            .title-wrapper {
+                margin-bottom: 30px;
+
+                .main-title {
+                    font-size: 1.5em;
+                    margin-bottom: 10px;
+                }
+                
+                &::after {
+                    position: absolute;
+                    content: " ";
+                    height: 1px;
+                    background: $DesaturatedBlue;
+                    margin-top: 20px;
+                    width: 90%;
+                    opacity: 0.2;
+                    // border: px solid $DesaturatedBlue;
+                }
+            }
+
+            .theme-control-wrapper {
+                margin-top: 10px;
+                justify-content: space-between;
+
+                color: $DesaturatedBlue;
+            }
+        }
+    
+        .cards-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin-bottom: 70px;
+
+            .card {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
